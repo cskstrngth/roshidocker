@@ -1,0 +1,19 @@
+language: go
+
+go:
+    - tip
+    - 1.5
+    - 1.4
+
+services:
+    - redis-server
+
+env:
+    - TEST_REDIS_ADDRESSES=localhost:6379
+
+before_script:
+    - sh -c "sleep 5"  # give Redis a(n additional) chance to start
+
+script:
+    - go test -v ./...
+
