@@ -1,7 +1,7 @@
-roshigobuilder
-==============
+roshidocker
+===========
 
-Create a roshi-server Docker image FROM scratch
+Create a minimalist ```roshi-server``` Docker image FROM scratch.
 
 Based on the following blog post:
 
