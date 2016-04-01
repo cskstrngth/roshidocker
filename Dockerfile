@@ -6,10 +6,10 @@ FROM scratch
 ## env vars
 
 # redis instances
-ENV REDIS_INSTANCES="localhost:6379"
+ENV REDIS_INSTANCES "localhost:6379"
 
 # http port
-ENV HTTP_PORT="6302"
+ENV HTTP_PORT "6302"
 
 #############################################################################
 
