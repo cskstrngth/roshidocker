@@ -20,4 +20,4 @@ ADD roshi-server /roshi-server
 EXPOSE ${HTTP_PORT}
 
 # set entrypoint
-ENTRYPOINT ["/roshi-server", "-http.address=:${HTTP_PORT}", "-redis.instances=${REDIS_INSTANCES}"]
+ENTRYPOINT ["/roshi-server", "-http.address=:$HTTP_PORT", "-redis.instances=$REDIS_INSTANCES"]
