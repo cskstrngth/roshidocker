@@ -3,6 +3,8 @@ roshidocker
 
 Create a minimalist ```roshi-server``` Docker image FROM scratch.
 
+Invoked from [cskstrngth/roshibuilder](https://github.com/cskstrngth/roshibuilder) to create a container from inside a container.
+
 Based on the following blog post:
 
 http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/
