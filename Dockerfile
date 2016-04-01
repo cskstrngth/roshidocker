@@ -17,7 +17,7 @@ ENV HTTP_PORT 6302
 ADD roshi-server /roshi-server
 
 # expose http port
-EXPOSE [${HTTP_PORT}]
+EXPOSE ${HTTP_PORT}
 
 # set entrypoint
 ENTRYPOINT ["/roshi-server", "-http.address=:${HTTP_PORT}", "-redis.instances=${REDIS_INSTANCES}"]
