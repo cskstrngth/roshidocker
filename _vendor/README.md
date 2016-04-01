@@ -18,4 +18,4 @@ normal GOPATH.
 
 # Credit
 
-This readme content was copied from (github.com/soundcloud/roshi)[github.com/soundcloud/roshi].
+This readme content was copied from [github.com/soundcloud/roshi](https://github.com/soundcloud/roshi).
