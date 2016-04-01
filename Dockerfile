@@ -14,7 +14,7 @@ ENV HTTP_PORT 6302
 #############################################################################
 
 # add the pre-built statically-linked roshi-server executable
-ADD _vendor/src/github.com/soundcloud/roshi/roshi-server/roshi-server /roshi-server
+ADD roshi-server /roshi-server
 
 # expose http port
 EXPOSE [${HTTP_PORT}]
